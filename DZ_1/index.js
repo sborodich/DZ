@@ -5,7 +5,7 @@ let UAge = 22;
 let UStatus = true;
 const CYear = new Date().getFullYear();//Вычисление текущего года
 
-//Выполнение условия: фамиля и имя всегда выводились идеально (первая- большая, остальные маленькие, без пробелов) 
+//Выполнение условия: фамиля и имя всегда выводились идеально (первая большая, остальные маленькие, без пробелов) 
 UName = UName.replaceAll(' ', '')[0].toUpperCase() + UName.replaceAll(' ', '').slice(1).toLowerCase();//Имя пользователя
 USurname = USurname.replaceAll(' ', '')[0].toUpperCase() + USurname.replaceAll(' ', '').slice(1).toLowerCase();//Фамилия пользователя
 
