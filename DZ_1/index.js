@@ -1,20 +1,20 @@
 //Блок определения переменных
-let UName = "   st aN iSL aU   ";
-let USurname = "   baRo  Dz iCh   "
-let UAge = 22;
-let UStatus = true;
+let userName = "   st aN iSL aU   ";
+let userSurname = "   baRo  Dz iCh   "
+let userAge = 22;
+const userStatus = true;
 const CYear = new Date().getFullYear();//Вычисление текущего года
 
 //Выполнение условия: фамиля и имя всегда выводились идеально (первая большая, остальные маленькие, без пробелов) 
-UName = UName.replaceAll(' ', '')[0].toUpperCase() + UName.replaceAll(' ', '').slice(1).toLowerCase();//Имя пользователя
-USurname = USurname.replaceAll(' ', '')[0].toUpperCase() + USurname.replaceAll(' ', '').slice(1).toLowerCase();//Фамилия пользователя
+userName = userName.replaceAll(' ', '')[0].toUpperCase() + userName.replaceAll(' ', '').slice(1).toLowerCase();//Имя пользователя
+userSurname = userSurname.replaceAll(' ', '')[0].toUpperCase() + userSurname.replaceAll(' ', '').slice(1).toLowerCase();//Фамилия пользователя
 
-const UMail = UName + USurname + "@test.com";//Составление почты
+const userMail = userName + userSurname + "@test.com";//Составление почты
 
 //Блок вывода данных
-console.log("\nMail: " + UMail);
-console.log("Name: " +UName);
-console.log("Suranme: " + USurname);
-console.log("Age: " + UAge);
-console.log("Year of birth: " + (CYear - UAge));//Вычисление года рождения
-console.log("Status: " + UStatus + "\n");
+console.log(`\nMail:  ${userMail}`);
+console.log("Name: " +userName);
+console.log("Suranme: " + userSurname);
+console.log("Age: " + userAge);
+console.log("Year of birth: " + (CYear - userAge));//Вычисление года рождения
+console.log("Status: " + userStatus + "\n");
