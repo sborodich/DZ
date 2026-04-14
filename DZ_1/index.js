@@ -12,9 +12,9 @@ userSurname = userSurname.replaceAll(' ', '')[0].toUpperCase() + userSurname.rep
 const userMail = userName + userSurname + "@test.com";//Составление почты
 
 //Блок вывода данных
-console.log(`\nMail:  ${userMail}`);
-console.log(`Name: ${userName}`);
-console.log(`Suranme: ${userSurname}`);
-console.log(`Age: ${userAge}`);
-console.log(`Year of birth: ${(currentYear - userAge)}`);//Вычисление года рождения
-console.log(`Status: ${userStatus}\n`);
+console.log(`\nMail:  ${userMail}
+Name: ${userName}
+Suranme: ${userSurname}
+Age: ${userAge}
+Year of birth: ${(currentYear - userAge)}//Вычисление года рождения
+Status: ${userStatus}\n`);
