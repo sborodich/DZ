@@ -16,5 +16,5 @@ console.log(`\nMail:  ${userMail}
 Name: ${userName}
 Suranme: ${userSurname}
 Age: ${userAge}
-Year of birth: ${(currentYear - userAge)}//Вычисление года рождения
+Year of birth: ${(currentYear - userAge) /*Вычисление года рождения*/} 
 Status: ${userStatus}\n`);
