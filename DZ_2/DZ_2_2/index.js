@@ -15,7 +15,7 @@ while(energy > 0){
     Энергия: ${energy}
     Золото: ${gold}
 `);
-}
+};
 console.log(`\n
     Смена окончена. 
     Итоговая глубина: ${depth}
