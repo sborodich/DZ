@@ -1,6 +1,6 @@
 //Блок определения переменных
 let userName = "   st aN iSL aU   ";
-let userSurname = "   baRo  Dz iCh   "
+let userSurname = "   baRo  Dz iCh   ";
 const userAge = 22;
 const userStatus = true;
 const currentYear = new Date().getFullYear();//Вычисление текущего года
